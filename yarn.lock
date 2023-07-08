@@ -6481,10 +6481,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fab-cards@npm:^8.0.100":
-  version: 8.0.100
-  resolution: "fab-cards@npm:8.0.100"
-  checksum: bf74ee3004e26694760c0731207fd0785e4908b90a63cdcba688fc9bfd4b4d94c5feccc8b7c51a7015a82346f9b83a02f6421e138c3b064e237e590c187f352e
+"fab-cards@npm:^8.0.103":
+  version: 8.0.103
+  resolution: "fab-cards@npm:8.0.103"
+  checksum: 1bb328f07d09ba9280afced6cd31b4689595d8479f0d353d8d9c0b62b9b130654977b1a78bb387d36c25fadd05c64c6eed3d73299a91ca0130b812baccbd5734
   languageName: node
   linkType: hard
 
@@ -6503,7 +6503,7 @@ __metadata:
     "@types/react-dom": ^18.0.0
     "@types/uuid": ^9.0.0
     bootstrap: ^5.2.3
-    fab-cards: ^8.0.100
+    fab-cards: ^8.0.103
     fuse.js: ^6.6.2
     gh-pages: ^4.0.0
     lodash: ^4.17.21
