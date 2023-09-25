@@ -1917,6 +1917,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@flesh-and-blood/cards@npm:^0.0.80":
+  version: 0.0.80
+  resolution: "@flesh-and-blood/cards@npm:0.0.80"
+  dependencies:
+    "@flesh-and-blood/types": ^0.0.80
+  checksum: 31cfab4fc8cae5539e11e2d611164e697d9a14c2d53c076683bbb41b1e54002ddea7c9e3761f32a9a08503db562cd0cd9a036f740261bc937693cac77e1bb9b8
+  languageName: node
+  linkType: hard
+
+"@flesh-and-blood/types@npm:^0.0.80":
+  version: 0.0.80
+  resolution: "@flesh-and-blood/types@npm:0.0.80"
+  checksum: e42b3cfdb1c128a028ad7f6d3948ee6b7d6e7b8ca6286ce8b73f5eb30a854e88e2ef3c7ce96d52058ed86bf3cef9bcbd1db988cc7163b8f9ad8efca100d20f40
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.6":
   version: 0.11.7
   resolution: "@humanwhocodes/config-array@npm:0.11.7"
@@ -6481,17 +6497,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fab-cards@npm:^8.0.103":
-  version: 8.0.103
-  resolution: "fab-cards@npm:8.0.103"
-  checksum: 1bb328f07d09ba9280afced6cd31b4689595d8479f0d353d8d9c0b62b9b130654977b1a78bb387d36c25fadd05c64c6eed3d73299a91ca0130b812baccbd5734
-  languageName: node
-  linkType: hard
-
 "fab-eco-proxy@workspace:.":
   version: 0.0.0-use.local
   resolution: "fab-eco-proxy@workspace:."
   dependencies:
+    "@flesh-and-blood/cards": ^0.0.80
+    "@flesh-and-blood/types": ^0.0.80
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
@@ -6503,7 +6514,6 @@ __metadata:
     "@types/react-dom": ^18.0.0
     "@types/uuid": ^9.0.0
     bootstrap: ^5.2.3
-    fab-cards: ^8.0.103
     fuse.js: ^6.6.2
     gh-pages: ^4.0.0
     lodash: ^4.17.21
