@@ -1,27 +1,42 @@
 name: Deploy to GitHub Pages
 
-on: push
+on:
+  push:
+    branches: [$default-branch]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-      - run: yarn install
-      - name: Fix permissions
-        run: |
-          chmod -c -R +rX "public/" | while read line; do
-          echo "::warning title=Invalid file permissions automatically fixed::$line"
-          done
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Node setup
+        uses: actions/setup-node@v4
+      - name: Install dependencies
+        run: yarn install
+      - name: Build site
+        run: yarn build
+      # - name: Fix permissions
+      #   run: |
+      #     chmod -c -R +rX "public/" | while read line; do
+      #     echo "::warning title=Invalid file permissions automatically fixed::$line"
+      #     done
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
 
   deploy:
     needs: build
-    permissions:
-      pages: write
-      id-token: write
     runs-on: ubuntu-latest
     environment:
       name: github-pages
