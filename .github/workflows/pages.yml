@@ -1,4 +1,4 @@
-name: Deploy to GitHub page
+name: Deploy to GitHub Pages
 
 on: push
 
@@ -20,6 +20,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
