@@ -3,4 +3,6 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: daily
+    allow:
+      - dependency-name: "@flesh-and-blood/*"
