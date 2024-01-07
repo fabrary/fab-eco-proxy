@@ -1305,17 +1305,17 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
-"@flesh-and-blood/cards@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-1.0.13.tgz#630b845afd44ab988aa3435b3e0f390165a7bb71"
-  integrity sha512-ce3XWwn9oeTMiNrWYiiFO7dWUy4jaKs1MPiFJiezr8BL8JufbSXkSDZqP97CfS+3H1VTca0QmEBsHuMwSAIuGA==
+"@flesh-and-blood/cards@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-1.0.15.tgz#ba9ff6f3afbea8f3ac7fe4e99423c5ed28461c75"
+  integrity sha512-q+5U3hPUZ1xIvDZarJ6sJpJ7Gmqrm6JiC230J/MMEUn1yvKPNhAfY3TUaJOmef4FEP9If8dEd1F9j1tyRlXcQQ==
   dependencies:
-    "@flesh-and-blood/types" "^1.0.8"
+    "@flesh-and-blood/types" "^1.0.15"
 
-"@flesh-and-blood/types@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-1.0.8.tgz#12d3ccf9119e2e46baff6123feeb72be4c1df9d2"
-  integrity sha512-Fc+4Ue4+4ReL3BOyEt756HFrYNq36dKu7FijY3ZTZ1UVeB4hR+ze6URxC34GzJZ5GMBVlk3vYPBZFB2nzusJ2g==
+"@flesh-and-blood/types@^1.0.15", "@flesh-and-blood/types@^1.0.8":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-1.0.15.tgz#28eee878719091d09ca624ec0e00863b882e3818"
+  integrity sha512-Uw2d5MD+WJmLPbJRT+W0kzMEzQxdo3SiYoUhASyEWxY+gkHm3roywuhurRUElbrOCXh1j7CyKLErI3benpEQ5w==
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
