@@ -1312,11 +1312,6 @@
   dependencies:
     "@flesh-and-blood/types" "^2.0.0"
 
-"@flesh-and-blood/types@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-1.0.15.tgz#28eee878719091d09ca624ec0e00863b882e3818"
-  integrity sha512-Uw2d5MD+WJmLPbJRT+W0kzMEzQxdo3SiYoUhASyEWxY+gkHm3roywuhurRUElbrOCXh1j7CyKLErI3benpEQ5w==
-
 "@flesh-and-blood/types@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-2.0.0.tgz#f344a8109db31bec6b7ffec3731ea3bd901af723"
