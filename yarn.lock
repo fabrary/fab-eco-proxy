@@ -1305,10 +1305,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
-"@flesh-and-blood/cards@^2.0.36":
-  version "2.0.36"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-2.0.36.tgz#1b07b77486ff0acfe40325f14d0041feae44459b"
-  integrity sha512-/JmXtPZEO0f+J0XrQXdvA3No23LCVDfMlDeAa59BDon4vfzi8S9mvABGQoELt5YvstHc92s7qPemg4Rv8UO5Xg==
+"@flesh-and-blood/cards@^2.0.37":
+  version "2.0.37"
+  resolved "https://registry.yarnpkg.com/@flesh-and-blood/cards/-/cards-2.0.37.tgz#9402847093960d504c8ea06f311edb2e03b406bf"
+  integrity sha512-bolMPdvgoTGnrZlfr+BRmix3pIuf5zw7JLRR0xRks0l1Fdtj+JYLbp4Gee49GCnY4UP6migsfmFMb+9K4WK0/g==
   dependencies:
     "@flesh-and-blood/types" "^2.0.6"
 
