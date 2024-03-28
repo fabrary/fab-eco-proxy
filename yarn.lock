@@ -1312,10 +1312,10 @@
   dependencies:
     "@flesh-and-blood/types" "^2.0.6"
 
-"@flesh-and-blood/types@^2.0.0", "@flesh-and-blood/types@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-2.0.6.tgz#9735a1410256bcd8203f72dd58187081690923e7"
-  integrity sha512-RQUYrWHVbyULLKoh+NFAY/eh2cdaTe+rvmN0Gr4Gy8qZYYCh3hltS6z5Yg11AqpVOlkTe5FxRz/UeTJSfl5ApA==
+"@flesh-and-blood/types@^2.0.53", "@flesh-and-blood/types@^2.0.6":
+  version "2.0.53"
+  resolved "https://registry.yarnpkg.com/@flesh-and-blood/types/-/types-2.0.53.tgz#87bd5f65f0f8f5560df7ea8ad6eb107e893bce1c"
+  integrity sha512-69ycfSM6Xe6+gxrjvsQdae9Rt+aP4Y8U0H5DtgirL7ZobhKscKoHbrV80i8VMisoVmx9fHU4C8xwToEOb+bI7g==
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
